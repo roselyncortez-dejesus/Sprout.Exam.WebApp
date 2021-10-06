@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Sprout.Exam.Common": {
+      "commandName": "Project",
+      "nativeDebugging": true
+    }
+  }
+}

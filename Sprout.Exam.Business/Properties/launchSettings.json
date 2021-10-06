@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Sprout.Exam.Business": {
+      "commandName": "Project",
+      "nativeDebugging": true
+    }
+  }
+}

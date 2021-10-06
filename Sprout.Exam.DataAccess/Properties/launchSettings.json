@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Sprout.Exam.DataAccess": {
+      "commandName": "Project",
+      "nativeDebugging": true
+    }
+  }
+}

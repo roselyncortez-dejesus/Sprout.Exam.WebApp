@@ -1,12 +1,10 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Authorization;
 using Sprout.Exam.Business.DataTransferObjects;
-using Sprout.Exam.Common.Enums;
+using Sprout.Exam.Business.Interface;
+using Sprout.Exam.Business.Services;
+using Sprout.Exam.Common.Constants;
+using System.Threading.Tasks;
 
 namespace Sprout.Exam.WebApp.Controllers
 {
@@ -16,6 +14,13 @@ namespace Sprout.Exam.WebApp.Controllers
     public class EmployeesController : ControllerBase
     {
 
+        private readonly EmployeeService _employeeService;
+
+        public EmployeesController(IEmployee service)
+        {
+            _employeeService = (EmployeeService)service;
+        }
+
         /// <summary>
         /// Refactor this method to go through proper layers and fetch from the DB.
         /// </summary>
@@ -23,8 +28,15 @@ namespace Sprout.Exam.WebApp.Controllers
         [HttpGet]
         public async Task<IActionResult> Get()
         {
-            var result = await Task.FromResult(StaticEmployees.ResultList);
-            return Ok(result);
+            var result = await _employeeService.GetEmployees();
+            if (result.status.code == ResponseCodes.SUCCESS)
+            {
+                return Ok(result);
+            }
+            else
+            {
+                return BadRequest(result);
+            }
         }
 
         /// <summary>
@@ -32,10 +44,17 @@ namespace Sprout.Exam.WebApp.Controllers
         /// </summary>
         /// <returns></returns>
         [HttpGet("{id}")]
-        public async Task<IActionResult> GetById(int id)
+        public async Task<IActionResult> GetById([FromRoute] int id)
         {
-            var result = await Task.FromResult(StaticEmployees.ResultList.FirstOrDefault(m => m.Id == id));
-            return Ok(result);
+            var result = await _employeeService.GetEmployeeById(id);
+            if (result.status.code == ResponseCodes.SUCCESS)
+            {
+                return Ok(result);
+            }
+            else
+            {
+                return BadRequest(result);
+            }
         }
 
         /// <summary>
@@ -43,15 +62,17 @@ namespace Sprout.Exam.WebApp.Controllers
         /// </summary>
         /// <returns></returns>
         [HttpPut("{id}")]
-        public async Task<IActionResult> Put(EditEmployeeDto input)
+        public async Task<IActionResult> Put(EditEmployeeDto request)
         {
-            var item = await Task.FromResult(StaticEmployees.ResultList.FirstOrDefault(m => m.Id == input.Id));
-            if (item == null) return NotFound();
-            item.FullName = input.FullName;
-            item.Tin = input.Tin;
-            item.Birthdate = input.Birthdate.ToString("yyyy-MM-dd");
-            item.TypeId = input.TypeId;
-            return Ok(item);
+            var result = await _employeeService.UpdateEmployee(request);
+            if (result.status.code == ResponseCodes.SUCCESS)
+            {
+                return Ok(result);
+            }
+            else
+            {
+                return BadRequest(result);
+            }
         }
 
         /// <summary>
@@ -59,21 +80,20 @@ namespace Sprout.Exam.WebApp.Controllers
         /// </summary>
         /// <returns></returns>
         [HttpPost]
-        public async Task<IActionResult> Post(CreateEmployeeDto input)
+        public async Task<IActionResult> Post([FromBody] CreateEmployeeDto request)
         {
+            var result = await _employeeService.InsertEmployee(request);
 
-           var id = await Task.FromResult(StaticEmployees.ResultList.Max(m => m.Id) + 1);
-
-            StaticEmployees.ResultList.Add(new EmployeeDto
+            if (result.status.code == ResponseCodes.SUCCESS)
             {
-                Birthdate = input.Birthdate.ToString("yyyy-MM-dd"),
-                FullName = input.FullName,
-                Id = id,
-                Tin = input.Tin,
-                TypeId = input.TypeId
-            });
+                //return Created($"/api/employees/{result.data}", result.data);
+                return Ok(result);
+            }
+            else
+            {
+                return BadRequest(result);
+            }
 
-            return Created($"/api/employees/{id}", id);
         }
 
 
@@ -84,40 +104,16 @@ namespace Sprout.Exam.WebApp.Controllers
         [HttpDelete("{id}")]
         public async Task<IActionResult> Delete(int id)
         {
-            var result = await Task.FromResult(StaticEmployees.ResultList.FirstOrDefault(m => m.Id == id));
-            if (result == null) return NotFound();
-            StaticEmployees.ResultList.RemoveAll(m => m.Id == id);
-            return Ok(id);
-        }
-
-
-
-        /// <summary>
-        /// Refactor this method to go through proper layers and use Factory pattern
-        /// </summary>
-        /// <param name="id"></param>
-        /// <param name="absentDays"></param>
-        /// <param name="workedDays"></param>
-        /// <returns></returns>
-        [HttpPost("{id}/calculate")]
-        public async Task<IActionResult> Calculate(int id,decimal absentDays,decimal workedDays)
-        {
-            var result = await Task.FromResult(StaticEmployees.ResultList.FirstOrDefault(m => m.Id == id));
-
-            if (result == null) return NotFound();
-            var type = (EmployeeType) result.TypeId;
-            return type switch
+            var result = await _employeeService.DeleteEmployee(id);
+            if (result.status.code == ResponseCodes.SUCCESS) 
+            { 
+                return Ok(result);
+            }
+            else
             {
-                EmployeeType.Regular =>
-                    //create computation for regular.
-                    Ok(25000),
-                EmployeeType.Contractual =>
-                    //create computation for contractual.
-                    Ok(20000),
-                _ => NotFound("Employee Type not found")
-            };
+                return BadRequest(result);
+            }
 
         }
-
     }
 }

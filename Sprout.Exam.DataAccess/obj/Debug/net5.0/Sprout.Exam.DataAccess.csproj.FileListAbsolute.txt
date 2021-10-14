@@ -1,0 +1,12 @@
+C:\Users\rose.cor\Downloads\Sprout.Exam.WebApp\Sprout.Exam.WebApp\Sprout.Exam.DataAccess\bin\Debug\net5.0\Sprout.Exam.DataAccess.deps.json
+C:\Users\rose.cor\Downloads\Sprout.Exam.WebApp\Sprout.Exam.WebApp\Sprout.Exam.DataAccess\bin\Debug\net5.0\Sprout.Exam.DataAccess.dll
+C:\Users\rose.cor\Downloads\Sprout.Exam.WebApp\Sprout.Exam.WebApp\Sprout.Exam.DataAccess\bin\Debug\net5.0\ref\Sprout.Exam.DataAccess.dll
+C:\Users\rose.cor\Downloads\Sprout.Exam.WebApp\Sprout.Exam.WebApp\Sprout.Exam.DataAccess\bin\Debug\net5.0\Sprout.Exam.DataAccess.pdb
+C:\Users\rose.cor\Downloads\Sprout.Exam.WebApp\Sprout.Exam.WebApp\Sprout.Exam.DataAccess\obj\Debug\net5.0\Sprout.Exam.DataAccess.csproj.AssemblyReference.cache
+C:\Users\rose.cor\Downloads\Sprout.Exam.WebApp\Sprout.Exam.WebApp\Sprout.Exam.DataAccess\obj\Debug\net5.0\Sprout.Exam.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rose.cor\Downloads\Sprout.Exam.WebApp\Sprout.Exam.WebApp\Sprout.Exam.DataAccess\obj\Debug\net5.0\Sprout.Exam.DataAccess.AssemblyInfoInputs.cache
+C:\Users\rose.cor\Downloads\Sprout.Exam.WebApp\Sprout.Exam.WebApp\Sprout.Exam.DataAccess\obj\Debug\net5.0\Sprout.Exam.DataAccess.AssemblyInfo.cs
+C:\Users\rose.cor\Downloads\Sprout.Exam.WebApp\Sprout.Exam.WebApp\Sprout.Exam.DataAccess\obj\Debug\net5.0\Sprout.Exam.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\rose.cor\Downloads\Sprout.Exam.WebApp\Sprout.Exam.WebApp\Sprout.Exam.DataAccess\obj\Debug\net5.0\Sprout.Exam.DataAccess.dll
+C:\Users\rose.cor\Downloads\Sprout.Exam.WebApp\Sprout.Exam.WebApp\Sprout.Exam.DataAccess\obj\Debug\net5.0\ref\Sprout.Exam.DataAccess.dll
+C:\Users\rose.cor\Downloads\Sprout.Exam.WebApp\Sprout.Exam.WebApp\Sprout.Exam.DataAccess\obj\Debug\net5.0\Sprout.Exam.DataAccess.pdb

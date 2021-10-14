@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Sprout.Exam.Business.DataTransferObjects.BaseDto;
+using System;
 using System.Collections.Generic;
 using System.Text;
 

@@ -1,0 +1,17 @@
+C:\Users\rose.cor\Downloads\Sprout.Exam.WebApp\Sprout.Exam.WebApp\Sprout.Exam.Business\bin\Debug\net5.0\Sprout.Exam.Business.deps.json
+C:\Users\rose.cor\Downloads\Sprout.Exam.WebApp\Sprout.Exam.WebApp\Sprout.Exam.Business\bin\Debug\net5.0\Sprout.Exam.Business.dll
+C:\Users\rose.cor\Downloads\Sprout.Exam.WebApp\Sprout.Exam.WebApp\Sprout.Exam.Business\bin\Debug\net5.0\ref\Sprout.Exam.Business.dll
+C:\Users\rose.cor\Downloads\Sprout.Exam.WebApp\Sprout.Exam.WebApp\Sprout.Exam.Business\bin\Debug\net5.0\Sprout.Exam.Business.pdb
+C:\Users\rose.cor\Downloads\Sprout.Exam.WebApp\Sprout.Exam.WebApp\Sprout.Exam.Business\bin\Debug\net5.0\Sprout.Exam.Common.dll
+C:\Users\rose.cor\Downloads\Sprout.Exam.WebApp\Sprout.Exam.WebApp\Sprout.Exam.Business\bin\Debug\net5.0\Sprout.Exam.DataAccess.dll
+C:\Users\rose.cor\Downloads\Sprout.Exam.WebApp\Sprout.Exam.WebApp\Sprout.Exam.Business\bin\Debug\net5.0\Sprout.Exam.Common.pdb
+C:\Users\rose.cor\Downloads\Sprout.Exam.WebApp\Sprout.Exam.WebApp\Sprout.Exam.Business\bin\Debug\net5.0\Sprout.Exam.DataAccess.pdb
+C:\Users\rose.cor\Downloads\Sprout.Exam.WebApp\Sprout.Exam.WebApp\Sprout.Exam.Business\obj\Debug\net5.0\Sprout.Exam.Business.csproj.AssemblyReference.cache
+C:\Users\rose.cor\Downloads\Sprout.Exam.WebApp\Sprout.Exam.WebApp\Sprout.Exam.Business\obj\Debug\net5.0\Sprout.Exam.Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rose.cor\Downloads\Sprout.Exam.WebApp\Sprout.Exam.WebApp\Sprout.Exam.Business\obj\Debug\net5.0\Sprout.Exam.Business.AssemblyInfoInputs.cache
+C:\Users\rose.cor\Downloads\Sprout.Exam.WebApp\Sprout.Exam.WebApp\Sprout.Exam.Business\obj\Debug\net5.0\Sprout.Exam.Business.AssemblyInfo.cs
+C:\Users\rose.cor\Downloads\Sprout.Exam.WebApp\Sprout.Exam.WebApp\Sprout.Exam.Business\obj\Debug\net5.0\Sprout.Exam.Business.csproj.CoreCompileInputs.cache
+C:\Users\rose.cor\Downloads\Sprout.Exam.WebApp\Sprout.Exam.WebApp\Sprout.Exam.Business\obj\Debug\net5.0\Sprout.Exam.Business.csproj.CopyComplete
+C:\Users\rose.cor\Downloads\Sprout.Exam.WebApp\Sprout.Exam.WebApp\Sprout.Exam.Business\obj\Debug\net5.0\Sprout.Exam.Business.dll
+C:\Users\rose.cor\Downloads\Sprout.Exam.WebApp\Sprout.Exam.WebApp\Sprout.Exam.Business\obj\Debug\net5.0\ref\Sprout.Exam.Business.dll
+C:\Users\rose.cor\Downloads\Sprout.Exam.WebApp\Sprout.Exam.WebApp\Sprout.Exam.Business\obj\Debug\net5.0\Sprout.Exam.Business.pdb

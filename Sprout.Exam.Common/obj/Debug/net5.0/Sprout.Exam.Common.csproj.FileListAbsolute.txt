@@ -1,0 +1,12 @@
+C:\Users\rose.cor\Downloads\Sprout.Exam.WebApp\Sprout.Exam.WebApp\Sprout.Exam.Common\bin\Debug\net5.0\Sprout.Exam.Common.deps.json
+C:\Users\rose.cor\Downloads\Sprout.Exam.WebApp\Sprout.Exam.WebApp\Sprout.Exam.Common\bin\Debug\net5.0\Sprout.Exam.Common.dll
+C:\Users\rose.cor\Downloads\Sprout.Exam.WebApp\Sprout.Exam.WebApp\Sprout.Exam.Common\bin\Debug\net5.0\ref\Sprout.Exam.Common.dll
+C:\Users\rose.cor\Downloads\Sprout.Exam.WebApp\Sprout.Exam.WebApp\Sprout.Exam.Common\bin\Debug\net5.0\Sprout.Exam.Common.pdb
+C:\Users\rose.cor\Downloads\Sprout.Exam.WebApp\Sprout.Exam.WebApp\Sprout.Exam.Common\obj\Debug\net5.0\Sprout.Exam.Common.csproj.AssemblyReference.cache
+C:\Users\rose.cor\Downloads\Sprout.Exam.WebApp\Sprout.Exam.WebApp\Sprout.Exam.Common\obj\Debug\net5.0\Sprout.Exam.Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rose.cor\Downloads\Sprout.Exam.WebApp\Sprout.Exam.WebApp\Sprout.Exam.Common\obj\Debug\net5.0\Sprout.Exam.Common.AssemblyInfoInputs.cache
+C:\Users\rose.cor\Downloads\Sprout.Exam.WebApp\Sprout.Exam.WebApp\Sprout.Exam.Common\obj\Debug\net5.0\Sprout.Exam.Common.AssemblyInfo.cs
+C:\Users\rose.cor\Downloads\Sprout.Exam.WebApp\Sprout.Exam.WebApp\Sprout.Exam.Common\obj\Debug\net5.0\Sprout.Exam.Common.csproj.CoreCompileInputs.cache
+C:\Users\rose.cor\Downloads\Sprout.Exam.WebApp\Sprout.Exam.WebApp\Sprout.Exam.Common\obj\Debug\net5.0\Sprout.Exam.Common.dll
+C:\Users\rose.cor\Downloads\Sprout.Exam.WebApp\Sprout.Exam.WebApp\Sprout.Exam.Common\obj\Debug\net5.0\ref\Sprout.Exam.Common.dll
+C:\Users\rose.cor\Downloads\Sprout.Exam.WebApp\Sprout.Exam.WebApp\Sprout.Exam.Common\obj\Debug\net5.0\Sprout.Exam.Common.pdb
